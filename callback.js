@@ -3,7 +3,7 @@ searchButton.addEventListener('click', async function(){
     try{
         const inputKeyword = document.querySelector('.input-keyword');
         const movies = await getMovies(inputKeyword.value);
-        // updateUI(movies);
+        updateUI(movies);
     }catch(err){
         alert(err);
     }
