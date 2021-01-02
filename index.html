@@ -12,11 +12,15 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    html, body{
+      overflow: auto;
+      height: 100%;
+    }
     .card-marg{
       margin-top: 11%;
     }
     .card{
-      background-image: url("profile-card-component-main/images/bg-pattern-card.svg");
+      background-image: url("images/bg-pattern-card.svg");
       background-repeat: repeat-x;
       padding-top: 70px;
       border-radius: 15px;
@@ -24,40 +28,41 @@
   </style>
 </head>
 <body>
-  <div class="row justify-content-center card-marg">
-    <div class="col-md-8 col-lg-4">
-      <div class="card text-center">
-        <div class="card-body">
-          <img src="profile-card-component-main/images/image-victor.jpg" alt="eror manx" class="rounded-circle mb-3 img-thumbnail"> 
-          
-          <div class="row mb-1 ">
-              <p class="card-text fs-5 fw-bold">
-                <span>Victor Crest</span>
-                <span class="text-muted fs-6 ps-1">26</span></p>
+  <section id="content" class="content">
+    <div class="row justify-content-center card-marg">
+      <div class="col-md-8 col-lg-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <img src="images/image-victor.jpg" alt="eror manx" class="rounded-circle mb-3 img-thumbnail"> 
+            
+            <div class="row mb-1 ">
+                <p class="card-text fs-5 fw-bold">
+                  <span>Victor Crest</span>
+                  <span class="text-muted fs-6 ps-1">26</span></p>
+            </div>
+            
+            <p class="card-text text-muted">London</p>
+            <div class="container">
+            <div class="row pt-4 g-0">
+              <div class="col-sm-4">
+                <p class="card-text fw-bold mb-0">80K</p>
+                <p class="card-text text-muted">Followers</p>
+              </div>
+              <div class="col-sm-4">
+                <p class="card-text fw-bold mb-0">803K</p>
+                <p class="card-text text-muted">Likes</p>
+              </div>
+              <div class="col-sm-4">
+                <p class="card-text fw-bold mb-0">1.4K</p>
+                <p class="card-text text-muted">Photos</p>
+              </div>
+            </div>
           </div>
-          
-          <p class="card-text text-muted">London</p>
-          <div class="container">
-          <div class="row pt-4 g-0">
-            <div class="col-sm-4">
-              <p class="card-text fw-bold mb-0">80K</p>
-              <p class="card-text text-muted">Followers</p>
-            </div>
-            <div class="col-sm-4">
-              <p class="card-text fw-bold mb-0">803K</p>
-              <p class="card-text text-muted">Likes</p>
-            </div>
-            <div class="col-sm-4">
-              <p class="card-text fw-bold mb-0">1.4K</p>
-              <p class="card-text text-muted">Photos</p>
-            </div>
           </div>
-        </div>
-        </div>
+      </div>
+      </div>
     </div>
-    </div>
-  </div>
-
+  </section>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
