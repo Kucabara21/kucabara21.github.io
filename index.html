@@ -17,8 +17,10 @@
       height: 100%;
     }
     body{
-      background-image: url("profile-card-component-main/images/bg-pattern-bottom.svg");
+      background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+      background-position: -100% 150%, 180% -100%;
       background-repeat: no-repeat;
+      background-color:darkcyan;
     }
     .card-marg{
       margin-top: 28%;
@@ -29,8 +31,10 @@
       }
     }
     .card{
-      background-image: url("profile-card-component-main/images/bg-pattern-card.svg");
+      background-image: url("images/bg-pattern-card.svg");
+      background-size: auto 9rem;
       background-repeat: repeat-x;
+      background-position: 0rem -0.5rem;
       padding-top: 4rem;
       border-radius: 1rem;
     }
@@ -55,7 +59,7 @@
             
             <p class="card-text text-muted">London</p>
             <div class="container">
-            <div class="row pt-4 g-0">
+            <div class="row pt-4 g-0 pb-2">
               <div class="col-4">
                 <p class="card-text fw-bold mb-0">80K</p>
                 <p class="card-text text-muted">Followers</p>
