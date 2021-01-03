@@ -12,10 +12,17 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    @font-face {
+      font-family: KumbhSans;
+      src: url(https://fonts.google.com/specimen/Kumbh+Sans);
+      font-weight: 400 700;
+    }
     html, body{
       overflow: auto;
       height: 100%;
+      font-family: KumbhSans;
     }
+    
     body{
       background-image: url("profile-card-component-main/images/bg-pattern-top.svg"), url("profile-card-component-main/images/bg-pattern-bottom.svg");
       background-position: 145% 190%, -50% -90%;
@@ -76,15 +83,15 @@
             <div class="container border-top">
             <div class="row pt-4 g-0 pb-2">
               <div class="col-4">
-                <p class="card-text fw-bold mb-0">80K</p>
+                <p class="card-text fs-5 fw-bold mb-0">80K</p>
                 <p class="card-text text-muted">Followers</p>
               </div>
               <div class="col-4">
-                <p class="card-text fw-bold mb-0">803K</p>
+                <p class="card-text fs-5 fw-bold mb-0">803K</p>
                 <p class="card-text text-muted">Likes</p>
               </div>
               <div class="col-4">
-                <p class="card-text fw-bold mb-0">1.4K</p>
+                <p class="card-text fs-5 fw-bold mb-0">1.4K</p>
                 <p class="card-text text-muted">Photos</p>
               </div>
             </div>
